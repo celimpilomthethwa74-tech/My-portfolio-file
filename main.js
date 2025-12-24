@@ -1,5 +1,5 @@
 let images = [
-    "me image.jpeg",
+    "WhatsApp Image 2025-12-20 at 00.18.25.jpeg",
     "WhatsApp Image 2025-12-19 at 23.55.50.jpeg",
     "WhatsApp Image 2025-12-19 at 23.56.30.jpeg"
 ];
@@ -25,4 +25,5 @@ document.getElementById("nextBtn").addEventListener("click", function () {
 function resetTimer() {
     clearInterval(timer);
     timer = setInterval(nextImage, 3000);
+
 }
